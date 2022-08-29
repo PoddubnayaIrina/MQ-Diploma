@@ -18,14 +18,14 @@ ol {
 }
 
 @font-face {
-  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
+  src: url(../fonts/OpenSans-Bold.woff);
   font-family: OpenSans-Bold;
   font-weight: 700;
   font-style: bold;
 }
 
 @font-face {
-  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+  src: url(../fonts/OpenSans-Regular.woff);
   font-family: OpenSans-Regular;
   font-weight: 400;
   font-style: regular;
@@ -176,7 +176,7 @@ body {
 /* ========================= HEADER ========================= */
 
 .header {
-  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+  background-image: url("../images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -244,6 +244,7 @@ body {
 /* ========================= TRENDS ========================= */
 
 .trends {
+  margin-top: 63px;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -339,7 +340,7 @@ box-sizing: border-box;
 /* ========================= MAIN ========================= */
 
 .page {
-  width: 1200px;
+  max-width: 1200px;
   margin-top: 57px;
   margin-right: auto;
   margin-left: auto;
@@ -650,6 +651,7 @@ box-sizing: border-box;
 }
 
 .headline__shop {
+  margin-top: 64px;
   font-family: open-sans-bold, sans-serif;
   color: #000000;
   text-transform: uppercase;
@@ -760,9 +762,8 @@ box-sizing: border-box;
   color: #b59f5b;
 }
 
-.product__link-1 {
+.product__link:hover {
   text-decoration: underline;
-  color: #b59f5b;
 }
 
 /* ========================= FOOTER ========================= */
