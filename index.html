@@ -9,54 +9,11 @@
 </head>
 <body>
 
-<!----------------POP-UP---------------->
-
-<div class="popup visually-hidden">
-  <div class="popup__box">
-    <span class="close">
-      <a>×</a>
-    </span>
-    <div class="popup__content">
-      <h3 class="headline__popup">Ваш фидбек</h3>
-      <form class="popup__form">
-        <div class="popup__field">
-          <span>Как часто вы заходите на сайт?</span>
-          <select class="select__field popup__field">
-            <option value="1" selected>Почти каждый день</option>
-            <option value="2">Каждую неделю</option>
-            <option value="3">Редко</option>
-          </select>
-        </div>
-        <div class="popup__field">
-          <span>Вы подписаны на e-mail рассылку?</span>
-          <div class="radio-buttons" id="radio-buttons">
-            <div class="radio">
-              <input class="choice" type="radio" id="yes">
-              <img class="circle" src="svg/form-circle.svg" alt="да">
-              <label class="choice_popup" for="yes">Да</label>
-            </div>
-            <div class="radio">
-              <input class="choice" type="radio" id="no">
-              <img class="circle" src="svg/form-empty-circle.svg" alt="нет">
-              <label class="choice__popup" for="no">Нет</label>
-            </div>
-          </div>
-        </div>
-        <div class="popup__field">
-          <span>Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
-          <textarea class="textarea__field popup__textarea popup__field" placeholder="Может больше рецептов?"></textarea>
-        </div>
-        <button class="button popup__button" type="submit">Отправить</button>
-      </form>
-    </div>
-  </div>
-</div> 
-
 <!----------------HEADER---------------->
 
 <header class="header">
   <div class="container__header">
-    <a href="#0"><img class="header__logo" src="svg/noemi-logo.svg" alt="Noemi-logo"></a>
+    <a href="#"><img class="header__logo" src="svg/noemi-logo.svg" alt="Noemi-logo"></a>
     <nav class="menu">
       <ul class="menu__list">
         <li class="menu__item">
@@ -86,70 +43,70 @@
 <!----------------TRENDS---------------->
 
 <section class="trends">
-  <h2 class="headline__trends">Сейчас в тренде</h2>
-  <div class="trends__container">
-    <article class="trend__box">
-      <div class="trend__preview">
-        <img src="images/trend1.jpg" class="trend__img" alt="цветочная рассада">
+  <h2 class="trends__title">Сейчас в тренде</h2>
+  <div class="trends__wrapper">
+    <article class="trend__container">
+      <div class="trend__picture-wrapper">
+        <img src="images/trend1.jpg" class="trend__picture" alt="цветочная рассада">
       </div>
-      <div class="trend__box-container">
-        <ul class="tag__list">
-          <li class="tag__list-item">
-            <a href="#" class="tag__link">lifestyle</a>
+      <div class="trend__content">
+        <ul class="trend__tegs-list">
+          <li class="trend__tegs-item">
+            <a href="#" class="trend__tegs-link">lifestyle</a>
           </li>
-          <li class="tag__list-item">
-            <a href="#" class="tag__link">interior</a>
+          <li class="trend__tegs-item">
+            <a href="#" class="trend__tegs-link">interior</a>
           </li>
         </ul>
-        <h3 class="trend__title">сейчас в тренде: сад на подоконнике</h3>
+        <h3 class="trend__description">сейчас в тренде: сад на подоконнике</h3>
       </div>
     </article>
 
-    <article class="trend__box">
-      <div class="trend__preview">
-        <img src="images/trend2.jpg" class="trend__img" alt="различные сыры">
+    <article class="trend__container">
+      <div class="trend__picture-wrapper">
+        <img src="images/trend2.jpg" class="trend__picture" alt="сыры в корзине">
       </div>
-      <div class="trend__box-container">
-        <ul class="tag__list">
-          <li class="tag__list-item">
-             <a href="#" class="tag__link">food</a>
+      <div class="trend__content">
+        <ul class="trend__tegs-list">
+          <li class="trend__tegs-item">
+             <a href="#" class="trend__tegs-link">food</a>
           </li>
         </ul>
-        <h3 class="trend__title">сыры на красивых картинках из интернета: какие они на вкус?</h3>
+        <h3 class="trend__description">сыры на красивых картинках из интернета: какие они на вкус?</h3>
       </div>
     </article>
 
-    <article class="trend__box">
-      <div class="trend__preview">
-        <img src="images/trend3.jpg" class="trend__img" alt="человек в горах">
+    <article class="trend__container">
+      <div class="trend__picture-wrapper">
+        <img src="images/trend3.jpg" class="trend__picture" alt="человек в горах">
       </div>
-      <div class="trend__box-container">
-        <ul class="tag__list">
-          <li class="tag__list-item">
-             <a href="#" class="tag__link">lifestyle</a>
+      <div class="trend__content">
+        <ul class="trend__tegs-list">
+          <li class="trend__tegs-item">
+             <a href="#" class="trend__tegs-link">lifestyle</a>
           </li>
-          <li class="tag__list-item">
-            <a href="#" class="tag__link">travel</a>
+          <li class="trend__tegs-item">
+            <a href="#" class="trend__tegs-link">travel</a>
           </li>
         </ul>
-        <h3 class="trend__title">собираемся в первый поход в горы</h3>
+        <h3 class="trend__description">собираемся в первый поход в горы</h3>
       </div>
     </article>
 
-    <article class="trend__box">
-      <div class="trend__preview">
-        <img src="images/trend4.jpg" class="trend__img" alt="лимоны в корзине">
+    <article class="trend__container">
+      <div class="trend__picture-wrapper">
+        <img src="images/trend4.jpg" class="trend__picture" alt="лимоны в корзине">
       </div>
-      <div class="trend__box-container">
-        <ul class="tag__list">
-          <li class="tag__list-item">
-            <a href="#" class="tag__link">food</a>
+      <div class="trend__content">
+        <ul class="trend__tegs-list">
+          <li class="trend__tegs-item">
+            <a href="#" class="trend__tegs-link">food</a>
           </li>
-          <li class="tag__list-item">
-            <a href="#" class="tag__link">health</a>
+          <li class="trend__tegs-item">
+            <a href="#" class="trend__tegs-link">health</a>
           </li>
         </ul>
-        <h3 class="trend__title">сейчас в тренде: сколько витамина с в лимонах?</h3>
+        <h3 class="trend__description">сейчас в тренде: сколько витамина с в лимонах?</h3>
       </div>
     </article>
   </div>		
@@ -163,7 +120,7 @@
     <article class="article">
       <img class="article__picture" src="images/last-post1.jpg" alt="фотография утреннего пляжа">
       <div class="article__content">
-         <ul class="article__tegs-list">
+         <ul class="trend__tegs-list">
           <li class="article__tegs-items"><a class="article__tegs-link" href="#">Travel</a></li>
           <li class="article__tegs-items"><a class="article__tegs-link" href="#">Health</a></li>
         </ul>
@@ -205,7 +162,7 @@
         <h2 class="article__title"><a class="article__title-link" href="#">Лучшие музыкальные фестивали этого лета</a></h2>
         <div class="article__meta">
           <time class="article__date" datetime="2019-06-10">10 июня 2019</time>
-          <a class="article__author" href="#0">Неизвестный автор</a>
+          <a class="article__author" href="#">Неизвестный автор</a>
         </div>
         <div class="article__description">
           <p>Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьёте свою палатку?</p>
@@ -384,10 +341,10 @@
   </aside>
 </div>
 
-<!----------------SHOP-CONTAINER---------------->
+<!----------------SHOP---------------->
 
 <section class="shop__container">
-  <h2 class="headline__shop">Наши изделия</h2>
+  <h2 class="shop__title">Наши изделия</h2>
   <div class="product__container">
     <article class="product__card">
       <div class="product__picture">
@@ -407,10 +364,10 @@
         <p class="product__description">Набор из двух подушек с модными принтами. Видео о создании<a class="product__link" href="#"> здесь. </a></p>
         <div class="price">
           <div class="price__box">
-          <div class="old__price">
+          <div class="price__old-value">
             <span>1000 ₽</span>
           </div>
-          <div class="new__price">
+          <div class="price__actual-value">
             <span>800 ₽</span>
           </div>
         </div>
@@ -437,7 +394,7 @@
         <p class="product__description">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена<a class="product__link" href="#"> весенняя серия постов </a>в блоге и несколько подкастов.</p>
       <div class="price">
         <div class="price__box">
-          <div class="new__price">
+          <div class="price__actual-value">
             <span>3500 ₽</span>
           </div>
         </div>
@@ -464,10 +421,10 @@
         <p class="product__description">Необычная рамка для украшения дома из видео<a class="product__link" href="#"> «Как сделать рамку из подручных средств за 30 минут» </a></p>
         <div class="price">
           <div class="price__box">
-          <div class="old__price">
+          <div class="price__old-value">
             <span>500 ₽</span>
           </div>
-          <div class="new__price">
+          <div class="price__actual-value">
             <span>400 ₽</span>
           </div>
         </div>
@@ -501,6 +458,35 @@
     </div>
   </div>
 </footer>
+
+<!----------------POPUP---------------->
+
+<div class="popup">
+  <form class="popup__container">
+    <button class="popup__close" type="button"></button>
+    <h2 class="section-title">ваш фидбек</h2>
+    <label class="frequency-group">
+      <span class="popup__block">Как часто вы заходите на сайт?</span>
+      <select class="popup__block-select">
+        <option value="rarely">Очень редко</option>
+        <option value="not-often">Не часто</option>
+        <option value="almost-everyday" selected>Почти каждый день</option>
+        <option value="everyday">Каждый день</option>
+      </select>
+    </label>
+    <div class="checkbox__group">
+      <span class="popup__block">Вы подписаны на e-mail рассылку?</span>
+      <br>
+      <input type="radio" class="radio__emailсhoice" name="emailсhoice"><span class="emailсhoice__text">Да</span>
+      <input type="radio" class="radio__emailсhoice" name="emailсhoice"><span class="emailсhoice__text">Нет</span>
+    </div>
+    <label class="comment__group">
+      <span class="popup__block comment__group-span">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+      <textarea class="comment__group-textarea" placeholder="Может, больше рецептов?" required></textarea>
+    </label>
+    <button class="button__send " type="submit">Отправить</button>
+  </form>
+</div>	
 
 </body>
 </html>
