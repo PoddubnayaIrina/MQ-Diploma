@@ -73,13 +73,13 @@ body {
 	margin-top: 15px;
 }
 
-.popup__block {
+.popup__question {
 	font-size: 13px;
 	line-height: 40px;
 	font-family: OpenSans-Regular, Arial, sans-serif;
 }
 
-.popup__block-select {
+.popup__select-option {
 	display: inline-block;
 	box-sizing: border-box;
 	height: 50px;
