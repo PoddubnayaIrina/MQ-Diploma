@@ -162,7 +162,7 @@ body {
 	font-size: 14px;
 }
 
-.popup__close {
+.popup__button-close {
 	position: absolute;
 	top: -30px;
 	right: 0;
