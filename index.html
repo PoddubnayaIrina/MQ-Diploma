@@ -9,6 +9,34 @@
 </head>
 <body>
 
+<!----------------POPUP---------------->
+
+<div class="popup">
+  <form class="popup__container">
+    <button class="popup__close" type="button"></button>
+    <h2 class="popup__title">ваш фидбек</h2>
+    <label class="frequency-group">
+      <span class="popup__block">Как часто вы заходите на сайт?</span>
+      <select class="popup__block-select">
+        <option value="rarely">Очень редко</option>
+        <option value="not-often">Не часто</option>
+        <option value="almost-everyday" selected>Почти каждый день</option>
+        <option value="everyday">Каждый день</option>
+      </select>
+    </label>
+    <div class="checkbox__group">
+      <div class="popup__block">Вы подписаны на e-mail рассылку?</div>
+      <input type="radio" class="radio__emailсhoice" name="emailсhoice"><span class="emailсhoice__text">Да</span>
+      <input type="radio" class="radio__emailсhoice" name="emailсhoice"><span class="emailсhoice__text">Нет</span>
+    </div>
+    <label class="comment__group">
+      <span class="popup__block comment__group-span">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+      <textarea class="comment__group-textarea" placeholder="Может, больше рецептов?" required></textarea>
+    </label>
+    <button class="button__send " type="submit">Отправить</button>
+  </form>
+</div>	
+
 <!----------------HEADER---------------->
 
 <header class="header">
@@ -47,7 +75,7 @@
   <div class="trends__wrapper">
     <article class="trend__container">
       <div class="trend__picture-wrapper">
-        <img src="images/trend1.jpg" class="trend__picture" alt="цветочная рассада">
+        <img src="images/trend1.jpg" class="trend__picture" alt="ростки в горшках">
       </div>
       <div class="trend__content">
         <ul class="trend__tegs-list">
@@ -64,7 +92,7 @@
 
     <article class="trend__container">
       <div class="trend__picture-wrapper">
-        <img src="images/trend2.jpg" class="trend__picture" alt="сыры в корзине">
+        <img src="images/trend2.jpg" class="trend__picture" alt="куски разных сыров">
       </div>
       <div class="trend__content">
         <ul class="trend__tegs-list">
@@ -95,7 +123,7 @@
 
     <article class="trend__container">
       <div class="trend__picture-wrapper">
-        <img src="images/trend4.jpg" class="trend__picture" alt="лимоны в корзине">
+        <img src="images/trend4.jpg" class="trend__picture" alt="лимоны">
       </div>
       <div class="trend__content">
         <ul class="trend__tegs-list">
@@ -458,35 +486,6 @@
     </div>
   </div>
 </footer>
-
-<!----------------POPUP---------------->
-
-<div class="popup">
-  <form class="popup__container">
-    <button class="popup__close" type="button"></button>
-    <h2 class="section-title">ваш фидбек</h2>
-    <label class="frequency-group">
-      <span class="popup__block">Как часто вы заходите на сайт?</span>
-      <select class="popup__block-select">
-        <option value="rarely">Очень редко</option>
-        <option value="not-often">Не часто</option>
-        <option value="almost-everyday" selected>Почти каждый день</option>
-        <option value="everyday">Каждый день</option>
-      </select>
-    </label>
-    <div class="checkbox__group">
-      <span class="popup__block">Вы подписаны на e-mail рассылку?</span>
-      <br>
-      <input type="radio" class="radio__emailсhoice" name="emailсhoice"><span class="emailсhoice__text">Да</span>
-      <input type="radio" class="radio__emailсhoice" name="emailсhoice"><span class="emailсhoice__text">Нет</span>
-    </div>
-    <label class="comment__group">
-      <span class="popup__block comment__group-span">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
-      <textarea class="comment__group-textarea" placeholder="Может, больше рецептов?" required></textarea>
-    </label>
-    <button class="button__send " type="submit">Отправить</button>
-  </form>
-</div>	
 
 </body>
 </html>
