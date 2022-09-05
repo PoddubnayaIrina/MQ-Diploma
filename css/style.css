@@ -263,7 +263,7 @@ body {
 
 .trends__title {
   margin-top: 59px;
-  font-family: OpenSans-Bold, sans-serif;
+  font-family: OpenSans-Bold, Arial, sans-serif;
   font-size: 20px;
   color: #000000;
   text-transform: uppercase;
@@ -317,7 +317,7 @@ box-sizing: border-box;
 }
 
 .trend__description {
-  font-family: open-sans-bold, sans-serif;
+  font-family: OpenSans-Bold, Arial, sans-serif;
   font-size: 1.25rem;
   line-height: 1.2;
   color: #ffffff;
@@ -333,7 +333,7 @@ box-sizing: border-box;
 }
 
 .trend__tegs-link {
-  font-family: open-sans-bold, sans-serif;
+  font-family: OpenSans-Bold, Arial, sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   color: #b59f5b;
@@ -665,7 +665,7 @@ box-sizing: border-box;
 
 .shop__title {
   margin-top: 64px;
-  font-family: OpenSans-Bold, sans-serif;
+  font-family: OpenSans-Bold, Arial, sans-serif;
   color: #000000;
   font-size: 20px;
   text-transform: uppercase;
@@ -704,12 +704,12 @@ box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding-top: 10px;
 }
 
 .product__title {
-  font-family: OpenSans-Bold, sans-serif;
+  font-family: OpenSans-Bold, Arial, sans-serif;
   color: #000000;
   text-transform: uppercase;
   font-size: 20px;
@@ -717,21 +717,22 @@ box-sizing: border-box;
 }
 
 .product__description {
-  font-family: open-sans-regular, sans-serif;
+  font-family: OpenSans-Regular, Arial, sans-serif;
   font-size: 15px;
-  margin-top: 15px;
-  margin-bottom: 27px;
 }
 
 .product__box {
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   border: 3px solid #b69f5b;
   max-width: 345px;
   max-height: 267px;
   margin-top: -35px;
   padding: 26px 22px 30px 22px;
   font-size: 13px;
-  font-family: 'OpenSans-regular', sans-serif;
+  font-family: 'OpenSans-regular', Arial, sans-serif;
 }
 
 .price {
@@ -745,7 +746,7 @@ box-sizing: border-box;
   display:  flex;
   margin-top: 27px;
   flex-direction: column;
-  font-family: open-sans-bold, sans-serif;
+  font-family: OpenSans-Bold, Arial, sans-serif;
 }
 
 .price__old-value {
@@ -760,7 +761,7 @@ box-sizing: border-box;
 }
 
 .shop__button {
-  font-family: open-sans-bold, sans-serif;
+  font-family: OpenSans-Bold, Arial, sans-serif;
   font-size: 14px;
   color: #ffffff;
   text-transform: uppercase;
