@@ -704,47 +704,64 @@ box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding-top: 10px;
 }
 
-.product__title {
-  font-family: OpenSans-Bold, Arial, sans-serif;
-  color: #000000;
-  text-transform: uppercase;
-  font-size: 20px;
-  text-align: left;
-}
-
-.product__description {
-  font-family: OpenSans-Regular, Arial, sans-serif;
-  font-size: 15px;
+.product__picture{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .product__box {
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
   border: 3px solid #b69f5b;
   max-width: 345px;
-  max-height: 267px;
+  min-height: 267px;
   margin-top: -35px;
-  padding: 26px 22px 30px 22px;
+  padding: 26px 20px 30px 20px;
   font-size: 13px;
   font-family: 'OpenSans-regular', Arial, sans-serif;
+}
+
+.product__title {
+  font-family: OpenSans-Bold, Arial, sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 20px;
+    text-align: left;
+}
+
+.product__description {
+  font-family: OpenSans-Regular, Arial, sans-serif;
+  line-height: 1.5;
+  margin-top: 3px;
+  margin-bottom: 18px;
+  font-size: 15px;
+}
+
+.product__link {
+  text-decoration: none;
+  color: #b59f5b;
+}
+
+.product__link:hover {
+  text-decoration: underline;
 }
 
 .price {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .price__box {
-  display:  flex;
-  margin-top: 27px;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 3px;
+  margin-bottom: 3px;
   flex-direction: column;
   font-family: OpenSans-Bold, Arial, sans-serif;
 }
@@ -767,20 +784,11 @@ box-sizing: border-box;
   text-transform: uppercase;
   border: none;
   background-color: #b59f5b;
-  padding: 15px 25px;
+  padding: 15px 27px;
 }
 
 .shop__button:hover {
   background-color: #000000;
-}
-
-.product__link {
-  text-decoration: none;
-  color: #b59f5b;
-}
-
-.product__link:hover {
-  text-decoration: underline;
 }
 
 /* ========================= FOOTER ========================= */
@@ -806,8 +814,9 @@ box-sizing: border-box;
   align-items: center;
 }
 
-.footer__socials-item:not(:first-child) {
-  margin-left: 30px;
+.footer__socials-item {
+  margin-left: 11px;
+  margin-right: 11px;
 }
 
 .footer__socials-icon {
