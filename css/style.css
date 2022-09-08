@@ -665,6 +665,7 @@ box-sizing: border-box;
 
 .shop__title {
   margin-top: 64px;
+  margin-bottom: 27px;
   font-family: OpenSans-Bold, Arial, sans-serif;
   color: #000000;
   font-size: 20px;
@@ -687,7 +688,7 @@ box-sizing: border-box;
   opacity: 0.4;
 }
 
-.product__container {
+.shop__product-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -699,21 +700,19 @@ box-sizing: border-box;
   justify-content: space-between;
 }
 
-.product__card {
-  width: 345px;
+.shop__product-card {
+  width: 29.75%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: space-between; */
-  padding-top: 10px;
 }
 
-.product__picture{
+.shop__product-picture {
   margin-left: auto;
   margin-right: auto;
 }
 
-.product__box {
+.shop__product-box {
   box-sizing: border-box;
   border: 3px solid #b69f5b;
   max-width: 345px;
@@ -724,7 +723,7 @@ box-sizing: border-box;
   font-family: 'OpenSans-regular', Arial, sans-serif;
 }
 
-.product__title {
+.shop__product-title {
   font-family: OpenSans-Bold, Arial, sans-serif;
     color: #000000;
     text-transform: uppercase;
@@ -733,7 +732,7 @@ box-sizing: border-box;
     text-align: left;
 }
 
-.product__description {
+.shop__product-description {
   font-family: OpenSans-Regular, Arial, sans-serif;
   line-height: 1.5;
   margin-top: 3px;
@@ -741,23 +740,23 @@ box-sizing: border-box;
   font-size: 15px;
 }
 
-.product__link {
+.shop__product-link {
   text-decoration: none;
   color: #b59f5b;
 }
 
-.product__link:hover {
+.shop__product-link:hover {
   text-decoration: underline;
 }
 
-.price {
+.shop__price {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-.price__box {
+.shop__price-container {
   display: flex;
   align-items: flex-start;
   margin-top: 3px;
@@ -766,13 +765,13 @@ box-sizing: border-box;
   font-family: OpenSans-Bold, Arial, sans-serif;
 }
 
-.price__old-value {
+.shop__price-old-value {
   font-size: 14px;
   text-decoration: line-through;
   line-height: 1.2;
 }
 
-.price__actual-value {
+.shop__price-actual-value {
   font-size: 20px;
   line-height: 1.2;
 }
