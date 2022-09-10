@@ -224,6 +224,11 @@ body {
   width: 180px;
 }
 
+.header__menu-list {
+  display: flex;
+  flex-direction: row;
+}
+
 .header__menu-item {
   display: inline-block;
   margin-left: 30px;
@@ -263,12 +268,11 @@ body {
 @media (max-width: 1200px) {
   .header {
     background-image: url(../images/banner-bg-tablet.jpg);
-    padding: 30px 0 125px;
-    min-height: 300px;
+    min-height: 390px;
   }
 
   .header__container {  
-    padding: 25px 27px;
+    padding: 42px 27px;
   }
 
   .header__logo {
@@ -279,15 +283,15 @@ body {
     display: none;
   }
 
-  .header__menu-burger{
+  .header__menu-burger {
     display: block;
     background-color: transparent;
     border: none;
-    width: 27px;
+    width: 28px;
   }
 
   .header__intro-text {
-    margin-top: 60px;
+    margin-top: 41px;
     margin-bottom: 25px;
     font-size: 40px;
     padding-left: 40px;
@@ -295,6 +299,34 @@ body {
     line-height: 1.4;
     margin-left: auto;
     margin-right: auto;
+  } 
+}
+
+@media (max-width: 640px) {
+  .header {
+    background-image: url(../images/banner-mobile.jpg);
+    min-height: 640px;
+  }
+
+  .header__container {  
+    padding: 34px 9px 29px;
+    flex-direction: column-reverse;
+    min-height: 322px;
+  }
+
+  .header__menu{
+    align-self: flex-end;
+  }
+
+  .header__logo {
+    width: 270px;
+  }
+
+  .header__intro-text {
+    margin-top: 0;
+    font-size: 26px;
+    padding-left: 30px;
+    padding-right: 30px;
   } 
 }
 
@@ -325,6 +357,8 @@ body {
 
 .trends__wrapper {
 display: flex;
+width: 100%;
+justify-content: space-between;
 }
 
 .trend__container {
@@ -335,7 +369,7 @@ display: flex;
   background-size: cover;
   min-height: 320px;
   z-index: 0;
-  width: 25%;
+  width: 24.75%;
   word-wrap: break-word;
 }
 
@@ -365,10 +399,6 @@ display: flex;
 
 .lemon-post {
   background-image: url(../images/trend4.jpg);
-}
-
-.trend__container:nth-child(n+2) {
-  margin-left: 0.22%;
 }
 
 .trend__content {
@@ -410,6 +440,30 @@ display: flex;
   margin-right: 20px;
 }
 
+@media (max-width: 1200px) {
+  .trends__title{
+    font-size: 18px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+  }
+
+  .trends__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .trend__container {
+    width: 49.75%;
+    min-height: 247px;
+    margin-bottom: 0.25%;
+  }
+
+  .trend__description {
+    font-size: 17px;
+    margin: 7px 20px 12px 12px;
+  }
+
+}
 
 /* ========================= MAIN ========================= */
 
