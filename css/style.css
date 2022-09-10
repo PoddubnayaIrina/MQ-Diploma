@@ -404,7 +404,7 @@ justify-content: space-between;
 .trend__content {
   position: absolute;
   border: 3px solid #b59f5b;
-  bottom: 14px;
+  bottom: 15px;
   width: 90%;
   padding: 20px 16px;
   margin-left: 5%;
@@ -452,6 +452,10 @@ justify-content: space-between;
     flex-wrap: wrap;
   }
   
+  .trend__content {
+  padding: 26px 30px;
+}
+
   .trend__container {
     width: 49.75%;
     min-height: 247px;
@@ -460,9 +464,14 @@ justify-content: space-between;
 
   .trend__description {
     font-size: 17px;
-    margin: 7px 20px 12px 12px;
+    margin: 7px 0;
   }
+}
 
+@media (max-width: 1200px) and (orientation: landscape) {
+  .trend__container {
+    width: 24.75%;
+  }
 }
 
 /* ========================= MAIN ========================= */
