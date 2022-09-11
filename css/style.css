@@ -998,7 +998,7 @@ justify-content: space-between;
   box-sizing: border-box;
   border: 3px solid #b69f5b;
   max-width: 345px;
-  min-height: 269px;
+  flex-grow: 1;
   margin-top: -35px;
   padding: 26px 20px 30px 20px;
   font-size: 13px;
@@ -1164,7 +1164,8 @@ justify-content: space-between;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 68px;
+  margin-top: 68px;
+  margin-bottom: 68px;
 }
 
 .footer__copyrights-link {
@@ -1176,5 +1177,10 @@ justify-content: space-between;
 @media (max-width: 1200px) {
   .footer {
     margin-top: 10px;
+}
+
+.footer__copyrights {
+  margin-top: 36px;
+  margin-bottom: 36px;
 }
 }
